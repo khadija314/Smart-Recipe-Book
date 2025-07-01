@@ -154,7 +154,7 @@ public class RecipeGUI extends JFrame {
 
             recipeList.add(r);
             FileManager.saveRecipe(r);
-            JOptionPane.showMessageDialog(this, "Recipe saved!");
+            JOptionPane.showMessageDialog(this, "Recipe saved successfully!");
             nameField.setText("");
             typeField.setText("");
             specialField.setText("");
